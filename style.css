@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+  }
+  .container {
+    /* border: 6px solid black; */
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .flex-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .item-1 {
+    background: white;
+    padding-top: 10px;
+    flex-grow: 0;
+  }
+  .item-2 {
+    color: black;
+    background-color: white;
+  }
+  .item-3 {
+    color: black;
+    background-color: white;
+  }
+  .item-4 {
+    color: black;
+    background-color: white;
+  }
+  .item-5 {
+    color: black;
+    background-color: white;
+  }
+  .item-6 {
+    color: black;
+    background-color: white;
+  }
+  .item-7 {
+    color: black;
+    background-color: white;
+  }
+  
+
+  .h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10;
+    text-align: center;
+  }
+  .h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 70;
+    margin-top: 10;
+    text-align: center;
+  }
+  .hr{
+    width: 1px;
+  }
+  .btn2{
+    color: black;
+  }
+  .get-started-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .get-started-button:hover {
+    background-color: #0062cc;
+  }
+
+  .get-started {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+  }
+  
+  .get-started:hover {
+    background-color: #0062cc;
+  }
+
+  .container2 {
+    
+    height: 800px;
+    display: grid;
+    grid-template: repeat(3,300px)/repeat(3,400px);
+    justify-content: space-evenly;
+  }
+  .grid-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .grid-1 {
+    color: black;
+    background-color: #ffffff;
+  }
+  .grid-2 {
+    color: black;
+    background-color: #ffffff;
+  }
+  .grid-3 {
+    color: black;
+    background-color: #ffffff;
+  }
+  
+  
