@@ -100,6 +100,8 @@ body {
     font-size: 16px;
     padding: 10px 20px;
     cursor: pointer;
+    text-transform: capitalize;
+    box-decoration-break: none;
   }
   
   .get-started-button:hover {
@@ -111,7 +113,8 @@ body {
     color: #fff;
     font-size: 16px;
     padding: 10px 20px;
-    
+    text-transform: capitalize;
+    text-decoration: none;
     cursor: pointer;
   }
   
@@ -171,19 +174,18 @@ body {
 
   }
     
-    
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-    
-
+  
   .card {
     padding-top: 80px;
     box-shadow: 0 4px 8px 0 rgba(224, 195, 195, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
+    border-radius: 10px;
     background-color: #ffffff;
   }
     
