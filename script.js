@@ -1,4 +1,4 @@
 function changeImage(fileName){
-    let img= document.querySelector("#image");
+    let img= document.getElementById("image");
     img.setAttribute("src",fileName);
 }
