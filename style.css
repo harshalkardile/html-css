@@ -1,8 +1,8 @@
-body {
+ body {
   padding:0;
   background-color: white;
   width:800;
- align-content: center;
+  align-content: center;
   margin-top:0;
   margin-left:auto;
   margin-right:auto;
@@ -10,20 +10,37 @@ body {
   display:block;
  
 }
+
+.ct{
+    background-color: #fefbf0;
+    
+}
+
+select{
+  border: 0px;
+  
+  background-color: #fefbf0;
+    outline: 0px;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    scroll-behavior: smooth;
+}
   .container {
     /* border: 6px solid black; */
+    
     display: flex;
     justify-content: space-around;
     align-items: start;
+    padding-left: 100px;
+    padding-right: 100px;
   }
+
   .flex-item {
-    margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
     color: white;
-    font-size: 1.5rem;
     padding: 1rem;
     text-align: center;
-    align-items: center;
+    align-items: baseline;
   }
 
   .hr{
@@ -31,40 +48,59 @@ body {
   }
  
   .item-1 {
-    background: white;
+    font-family: Inter, sans-serif;
+    background: #fefbf0;
     padding-top: 10px;
-    flex-grow: 0;
-    font-size: 1.2rem;
+    font-size: 16px;
+    padding-right: none;
+  }
+  .Spectra{
+    max-width: 50%;
+    align-items: baseline;
+    align-items: flex-end;
   }
   .item-2 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background: #fefbf0;
+    
+   
   }
   .item-3 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background: #fefbf0;
+    
   }
   .item-4 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background: #fefbf0;
+    
   }
   .item-5 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background: #fefbf0;
+   
   }
   .item-6 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background: #fefbf0;
+   
   }
   .item-7 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background: #fefbf0;
+    align-items: start;
  
   }
   
@@ -109,6 +145,9 @@ body {
     font-size: 16px;
     padding: 10px 20px;
     cursor: pointer;
+    border: 0px;
+    outline: 0px;
+    align-items: start;
     text-transform: capitalize;
     box-decoration-break: none;
   }
@@ -125,6 +164,8 @@ body {
     text-transform: capitalize;
     text-decoration: none;
     cursor: pointer;
+    border: 0px;
+    outline: 0px;
   }
   
   .get-started:hover {
